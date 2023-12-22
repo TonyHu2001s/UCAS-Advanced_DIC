@@ -1,0 +1,836 @@
+ 
+****************************************
+Report : hierarchy
+Design : mul_tc_16_16
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:19:36 2023
+****************************************
+
+mul_tc_16_16
+    booth
+        XOR2X1                           typical
+        booth_code_0
+            AOI21XL                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21XL                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_1
+            AOI21XL                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21XL                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_2
+            AOI21XL                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21XL                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_3
+            AOI21XL                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21XL                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_4
+            AOI21XL                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21XL                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_5
+            AOI21X1                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21X1                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_6
+            AOI21X1                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21X1                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+        booth_code_7
+            AOI21X1                      typical
+            CLKINVX1                     typical
+            INVX3                        typical
+            MXI2X1                       typical
+            NOR2X1                       typical
+            OAI2BB1X1                    typical
+            OAI21XL                      typical
+            OAI22XL                      typical
+            XNOR2X1                      typical
+    wallace
+        wallace_adder
+            AND2X1                       typical
+            AO21X1                       typical
+            CLKINVX1                     typical
+            CLKMX2X2                     typical
+            INVX20                       typical
+            NOR2X1                       typical
+            XNOR2X1                      typical
+            carry4_0
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_1
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_2
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_3
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_4
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_5
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_6
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_7
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_8
+                AND4X1                   typical
+                AO21X1                   typical
+            carry4_9
+                AND4X1                   typical
+                AO21X1                   typical
+        wallace_tree
+            wallace_tree_1bit_0
+                full_adder_0
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_1
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_2
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_3
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_4
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_5
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_0
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_1
+                full_adder_6
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_7
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_8
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_9
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_10
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_11
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_1
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_2
+                full_adder_12
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_13
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_14
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_15
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_16
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_17
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_2
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_3
+                full_adder_18
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_19
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_20
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_21
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_22
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_23
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_3
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_4
+                full_adder_24
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_25
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_26
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_27
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_28
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_29
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_4
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_5
+                full_adder_30
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_31
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_32
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_33
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_34
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_35
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_5
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_6
+                full_adder_36
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_37
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_38
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_39
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_40
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_41
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_6
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_7
+                full_adder_42
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_43
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_44
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_45
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_46
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_47
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_7
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_8
+                full_adder_48
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_49
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_50
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_51
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_52
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_53
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_8
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_9
+                full_adder_54
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_55
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_56
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_57
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_58
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_59
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_9
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_10
+                full_adder_60
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_61
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_62
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_63
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_64
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_65
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_10
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_11
+                full_adder_66
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_67
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_68
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_69
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_70
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_71
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_11
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_12
+                full_adder_72
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_73
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_74
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_75
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_76
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_77
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_12
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_13
+                full_adder_78
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_79
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_80
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_81
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_82
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_83
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_13
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_14
+                full_adder_84
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_85
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_86
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_87
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_88
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_89
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_14
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_15
+                full_adder_90
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_91
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_92
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_93
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_94
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_95
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_15
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_16
+                full_adder_96
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_97
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_98
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_99
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_100
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_101
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_16
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_17
+                full_adder_102
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_103
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_104
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_105
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_106
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_107
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_17
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_18
+                full_adder_108
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_109
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_110
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_111
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_112
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_113
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_18
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_19
+                full_adder_114
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_115
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_116
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_117
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_118
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_119
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_19
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_20
+                full_adder_120
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_121
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_122
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_123
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_124
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_125
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_20
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_21
+                full_adder_126
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_127
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_128
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_129
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_130
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_131
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_21
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_22
+                full_adder_132
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_133
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_134
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_135
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_136
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_137
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_22
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_23
+                full_adder_138
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_139
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_140
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_141
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_142
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_143
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_23
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_24
+                full_adder_144
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_145
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_146
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_147
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_148
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_149
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_24
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_25
+                full_adder_150
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_151
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_152
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_153
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_154
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_155
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_25
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_26
+                full_adder_156
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_157
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_158
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_159
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_160
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_161
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_26
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_27
+                full_adder_162
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_163
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_164
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_165
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_166
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_167
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_27
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_28
+                full_adder_168
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_169
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_170
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_171
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_172
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_173
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_28
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_29
+                full_adder_174
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_175
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_176
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_177
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_178
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_179
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_29
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_30
+                full_adder_180
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_181
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_182
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_183
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_184
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_185
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_30
+                    AND2X1               typical
+                    XOR2X1               typical
+            wallace_tree_1bit_31
+                full_adder_186
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_187
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_188
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_189
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_190
+                    AO22X1               typical
+                    XOR2X1               typical
+                full_adder_191
+                    AO22X1               typical
+                    XOR2X1               typical
+                half_adder_31
+                    AND2X1               typical
+                    XOR2X1               typical
+1

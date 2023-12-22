@@ -1,0 +1,37 @@
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+sum[0]
+sum[1]
+sum[2]
+sum[3]
+sum[4]
+sum[5]
+sum[6]
+sum[7]
+sum[8]
+sum[9]
+sum[10]
+sum[11]
+sum[12]
+sum[13]
+sum[14]
+sum[15]
+sum[16]
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

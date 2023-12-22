@@ -1,0 +1,11 @@
+Command: /home/ICer/homework/Verilog/ch4-5/Prj_2.1/sim/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Dec  3 08:41 2023
+VCD+ Writer O-2018.09-1_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+$finish called from file "../src/tb_stop_watch.v", line 43.
+$finish at simulation time                74008
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 74008 ns
+CPU Time:      1.590 seconds;       Data structure size:   0.0Mb
+Sun Dec  3 08:41:47 2023

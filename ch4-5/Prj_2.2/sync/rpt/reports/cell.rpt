@@ -1,0 +1,141 @@
+ 
+****************************************
+Report : cell
+Design : add_tc_16_16
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 21:53:22 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U101                      XOR2X1          typical         11.881800 
+U102                      CLKMX2X2        typical         13.579200 
+U103                      CLKMX2X2        typical         13.579200 
+U104                      CLKMX2X2        typical         13.579200 
+U105                      CLKMX2X2        typical         13.579200 
+U106                      CLKMX2X2        typical         13.579200 
+U107                      CLKMX2X2        typical         13.579200 
+U108                      CLKMX2X2        typical         13.579200 
+U109                      CLKMX2X2        typical         13.579200 
+U110                      CLKMX2X2        typical         13.579200 
+U111                      CLKMX2X2        typical         13.579200 
+U112                      CLKMX2X2        typical         13.579200 
+U113                      CLKMX2X2        typical         13.579200 
+U114                      CLKMX2X2        typical         13.579200 
+U115                      CLKMX2X2        typical         13.579200 
+U116                      XOR2X1          typical         11.881800 
+U117                      INVX20          typical         22.066200 
+U118                      INVX20          typical         22.066200 
+U119                      INVX20          typical         22.066200 
+U120                      INVX20          typical         22.066200 
+U121                      INVX20          typical         22.066200 
+U122                      INVX20          typical         22.066200 
+U123                      INVX20          typical         22.066200 
+U124                      INVX20          typical         22.066200 
+U125                      INVX20          typical         22.066200 
+U126                      INVX20          typical         22.066200 
+U127                      INVX20          typical         22.066200 
+U128                      INVX20          typical         22.066200 
+U129                      INVX20          typical         22.066200 
+U130                      INVX20          typical         22.066200 
+U131                      INVX20          typical         22.066200 
+U132                      INVX20          typical         22.066200 
+U133                      OA21X2          typical         10.184400 
+U134                      INVX20          typical         22.066200 
+U135                      NOR2X1          typical         5.092200  
+U136                      XNOR2X1         typical         11.881800 
+U137                      NOR2X1          typical         5.092200  
+U138                      XNOR2X1         typical         11.881800 
+U139                      NOR2X1          typical         5.092200  
+U140                      XNOR2X1         typical         11.881800 
+U141                      NOR2X1          typical         5.092200  
+U142                      XNOR2X1         typical         11.881800 
+U143                      NOR2X1          typical         5.092200  
+U144                      XNOR2X1         typical         11.881800 
+U145                      NOR2X1          typical         5.092200  
+U146                      XNOR2X1         typical         11.881800 
+U147                      NOR2X1          typical         5.092200  
+U148                      XNOR2X1         typical         11.881800 
+U149                      NOR2X1          typical         5.092200  
+U150                      XNOR2X1         typical         11.881800 
+U151                      NOR2X1          typical         5.092200  
+U152                      XNOR2X1         typical         11.881800 
+U153                      MXI2X1          typical         11.881800 
+U154                      OAI21XL         typical         6.789600  
+U155                      CLKINVX1        typical         3.394800  
+U156                      NOR2X1          typical         5.092200  
+U157                      XNOR2X1         typical         11.881800 
+U158                      NOR2X1          typical         5.092200  
+U159                      XNOR2X1         typical         11.881800 
+U160                      NOR2X1          typical         5.092200  
+U161                      XNOR2X1         typical         11.881800 
+U162                      NOR2X1          typical         5.092200  
+U163                      XNOR2X1         typical         11.881800 
+U164                      NOR2X1          typical         5.092200  
+U165                      XNOR2X1         typical         11.881800 
+U166                      CLKINVX1        typical         3.394800  
+U167                      NOR2X1          typical         5.092200  
+U168                      CLKINVX1        typical         3.394800  
+U169                      NOR2X1          typical         5.092200  
+U170                      CLKINVX1        typical         3.394800  
+U171                      NOR2X1          typical         5.092200  
+U172                      CLKINVX1        typical         3.394800  
+U173                      NOR2X1          typical         5.092200  
+U174                      CLKINVX1        typical         3.394800  
+U175                      NOR2X1          typical         5.092200  
+U176                      CLKINVX1        typical         3.394800  
+U177                      NOR2X1          typical         5.092200  
+U178                      CLKINVX1        typical         3.394800  
+U179                      NOR2X1          typical         5.092200  
+U180                      CLKINVX1        typical         3.394800  
+U181                      NOR2X1          typical         5.092200  
+U182                      CLKINVX1        typical         3.394800  
+U183                      NOR2X1          typical         5.092200  
+U184                      NAND2X1         typical         5.092200  
+U185                      CLKINVX1        typical         3.394800  
+U186                      XOR2X1          typical         11.881800 
+U187                      CLKINVX1        typical         3.394800  
+U188                      NOR2X1          typical         5.092200  
+U189                      CLKINVX1        typical         3.394800  
+U190                      NOR2X1          typical         5.092200  
+U191                      CLKINVX1        typical         3.394800  
+U192                      NOR2X1          typical         5.092200  
+U193                      CLKINVX1        typical         3.394800  
+U194                      NOR2X1          typical         5.092200  
+U195                      CLKINVX1        typical         3.394800  
+U196                      NOR2X1          typical         5.092200  
+U197                      NAND2X1         typical         5.092200  
+U198                      CLKINVX1        typical         3.394800  
+U199                      NAND2X1         typical         5.092200  
+U200                      AND2X1          typical         6.789600  
+U201                      AND2X1          typical         6.789600  
+U202                      AND2X1          typical         6.789600  
+U203                      AND2X1          typical         6.789600  
+U204                      AND2X1          typical         6.789600  
+U205                      AND2X1          typical         6.789600  
+U206                      AND2X1          typical         6.789600  
+U207                      AND2X1          typical         6.789600  
+U208                      AND2X1          typical         6.789600  
+U209                      AND2X1          typical         6.789600  
+U210                      AND2X1          typical         6.789600  
+U211                      AND2X1          typical         6.789600  
+U212                      AND2X1          typical         6.789600  
+U213                      AND2X1          typical         6.789600  
+U214                      NOR2X1          typical         5.092200  
+U215                      CLKINVX1        typical         3.394800  
+U216                      CLKINVX1        typical         3.394800  
+u0_carry                  carry4_4                        61.106402 h
+u1_carry                  carry4_3                        61.106402 h
+u2_carry                  carry4_2                        61.106402 h
+u3_carry                  carry4_1                        61.106402 h
+u4_carry                  carry4_0                        61.106402 h
+--------------------------------------------------------------------------------
+Total 121 cells                                           1424.118599
+1

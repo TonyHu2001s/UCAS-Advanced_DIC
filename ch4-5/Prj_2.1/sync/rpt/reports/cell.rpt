@@ -1,0 +1,56 @@
+Warning: Design 'stop_watch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : cell
+Design : stop_watch
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 14:03:59 2023
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+C94                       AND2X2          typical         6.789600  so
+U16                       NOR2BX1         typical         6.789600  
+U17                       NOR2BX1         typical         6.789600  
+U18                       NOR2BX1         typical         6.789600  
+U19                       NOR2BX1         typical         6.789600  
+U20                       NOR2BX1         typical         6.789600  
+U21                       NOR2BX1         typical         6.789600  
+U22                       AND4X1          typical         10.184400 
+U23                       NOR2X1          typical         5.092200  
+U24                       NOR4X1          typical         8.487000  
+U25                       NOR2BX1         typical         6.789600  
+U26                       NOR2BX1         typical         6.789600  
+U27                       NOR2X1          typical         5.092200  
+U28                       XNOR2X1         typical         11.881800 
+add_62                    stop_watch_DW01_inc_0           127.305000
+                                                                    BO, h
+count_sec_reg[0]          DFFRX1          typical         32.250599 n
+count_sec_reg[1]          DFFRX1          typical         32.250599 n
+count_sec_reg[2]          DFFRX1          typical         32.250599 n
+count_sec_reg[3]          DFFRX1          typical         32.250599 n
+count_sec_reg[4]          DFFRX1          typical         32.250599 n
+count_sec_reg[5]          DFFRX1          typical         32.250599 n
+count_sec_reg[6]          DFFRX1          typical         32.250599 n
+count_sec_reg[7]          DFFRX1          typical         32.250599 n
+full_sec_reg              DFFRX1          typical         32.250599 n
+state_reg                 DFFRX1          typical         32.250599 n
+u_counter_hr_h            counter                         0.000000  b, p
+u_counter_hr_l            counter                         0.000000  b, p
+u_counter_min_h           counter                         0.000000  b, p
+u_counter_min_l           counter                         0.000000  b, p
+u_counter_sec_h           counter                         0.000000  b, p
+u_counter_sec_l           counter                         0.000000  b, p
+--------------------------------------------------------------------------------
+Total 31 cells                                            551.654988
+1

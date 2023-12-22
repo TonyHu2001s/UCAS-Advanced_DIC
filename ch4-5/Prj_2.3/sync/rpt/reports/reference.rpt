@@ -1,0 +1,26 @@
+ 
+****************************************
+Report : reference
+Design : mul_tc_16_16
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:19:36 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+booth                          4321.580388       1   4321.580388  h
+wallace                        9907.723594       1   9907.723594  h
+-----------------------------------------------------------------------------
+Total 2 references                                  14229.303982
+1

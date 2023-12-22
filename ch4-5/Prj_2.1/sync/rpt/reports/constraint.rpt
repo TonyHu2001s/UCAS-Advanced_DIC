@@ -1,0 +1,21 @@
+Warning: Design 'stop_watch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : stop_watch
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 14:03:58 2023
+****************************************
+
+
+    Design: stop_watch
+
+    max_area               0.00
+  - Current Area         551.65
+  ------------------------------
+    Slack               -551.65  (VIOLATED)
+
+
+1

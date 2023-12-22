@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : hierarchy
+Design : add_tc_16_16
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 21:53:22 2023
+****************************************
+
+add_tc_16_16
+    AND2X1              typical
+    CLKINVX1            typical
+    CLKMX2X2            typical
+    INVX20              typical
+    MXI2X1              typical
+    NAND2X1             typical
+    NOR2X1              typical
+    OA21X2              typical
+    OAI21XL             typical
+    XNOR2X1             typical
+    XOR2X1              typical
+    carry4_0
+        AND4X1          typical
+        AO21X1          typical
+    carry4_1
+        AND4X1          typical
+        AO21X1          typical
+    carry4_2
+        AND4X1          typical
+        AO21X1          typical
+    carry4_3
+        AND4X1          typical
+        AO21X1          typical
+    carry4_4
+        AND4X1          typical
+        AO21X1          typical
+1

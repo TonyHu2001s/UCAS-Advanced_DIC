@@ -1,0 +1,35 @@
+Warning: Design 'stop_watch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : stop_watch
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 14:03:59 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2X2             typical        6.789600       1      6.789600  
+AND4X1             typical       10.184400       1     10.184400  
+DFFRX1             typical       32.250599      10    322.505989  n
+NOR2BX1            typical        6.789600       8     54.316799  
+NOR2X1             typical        5.092200       2     10.184400  
+NOR4X1             typical        8.487000       1      8.487000  
+XNOR2X1            typical       11.881800       1     11.881800  
+counter                           0.000000       4      0.000000  b
+counter                           0.000000       2      0.000000  b
+stop_watch_DW01_inc_0           127.305000       1    127.305000  h
+-----------------------------------------------------------------------------
+Total 10 references                                   551.654988
+1

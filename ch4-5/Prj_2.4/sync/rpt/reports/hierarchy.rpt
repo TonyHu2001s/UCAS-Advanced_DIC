@@ -1,0 +1,25 @@
+ 
+****************************************
+Report : hierarchy
+Design : bsh_32
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:35:13 2023
+****************************************
+
+bsh_32
+    AO22X1            typical
+    AOI2BB2X1         typical
+    AOI22X1           typical
+    AOI22XL           typical
+    AOI221XL          typical
+    CLKINVX1          typical
+    INVX3             typical
+    INVX20            typical
+    NAND2X1           typical
+    NAND2X2           typical
+    NOR2X1            typical
+    OA22X1            typical
+    OAI2BB2XL         typical
+    OAI22XL           typical
+    OAI221XL          typical
+1

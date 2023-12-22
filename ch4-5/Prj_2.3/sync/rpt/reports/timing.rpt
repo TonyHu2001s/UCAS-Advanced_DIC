@@ -1,0 +1,115 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mul_tc_16_16
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:19:36 2023
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: b[7] (input port)
+  Endpoint: product[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  b[7] (in)                                               0.00       0.00 r
+  u_booth/b[7] (booth)                                    0.00       0.00 r
+  u_booth/u_booth_code_4/b_code[0] (booth_code_3)         0.00       0.00 r
+  u_booth/u_booth_code_4/U34/Y (CLKINVX1)                 0.05       0.05 f
+  u_booth/u_booth_code_4/U32/Y (OAI21XL)                  0.60       0.66 r
+  u_booth/u_booth_code_4/U18/Y (OAI22XL)                  0.09       0.75 f
+  u_booth/u_booth_code_4/prod_a[1] (booth_code_3)         0.00       0.75 f
+  u_booth/U62/Y (XOR2X1)                                  0.11       0.86 r
+  u_booth/prod_4[9] (booth)                               0.00       0.86 r
+  u_wallace/prod_4[9] (wallace)                           0.00       0.86 r
+  u_wallace/u_wallace_tree/prod_4[9] (wallace_tree)       0.00       0.86 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/N[4] (wallace_tree_1bit_22)
+                                                          0.00       0.86 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_1/b (full_adder_136)
+                                                          0.00       0.86 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_1/U3/Y (XOR2X1)
+                                                          0.11       0.97 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_1/U1/Y (XOR2X1)
+                                                          0.14       1.12 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_1/s (full_adder_136)
+                                                          0.00       1.12 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_2/b (full_adder_135)
+                                                          0.00       1.12 r
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_2/U3/Y (XOR2X1)
+                                                          0.13       1.25 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_2/U2/Y (AO22X1)
+                                                          0.22       1.46 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/u_full_adder_2/cout (full_adder_135)
+                                                          0.00       1.46 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_9/cout[3] (wallace_tree_1bit_22)
+                                                          0.00       1.46 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_10/cin[3] (wallace_tree_1bit_21)
+                                                          0.00       1.46 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_10/u_full_adder_4/cin (full_adder_127)
+                                                          0.00       1.46 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_10/u_full_adder_4/U3/Y (XOR2X1)
+                                                          0.11       1.57 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_10/u_full_adder_4/U2/Y (AO22X1)
+                                                          0.22       1.79 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_10/u_full_adder_4/cout (full_adder_127)
+                                                          0.00       1.79 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_10/cout[5] (wallace_tree_1bit_21)
+                                                          0.00       1.79 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_11/cin[5] (wallace_tree_1bit_20)
+                                                          0.00       1.79 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_11/u_full_adder_5/cin (full_adder_120)
+                                                          0.00       1.79 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_11/u_full_adder_5/U3/Y (XOR2X1)
+                                                          0.11       1.90 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_11/u_full_adder_5/U2/Y (AO22X1)
+                                                          0.23       2.13 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_11/u_full_adder_5/cout (full_adder_120)
+                                                          0.00       2.13 f
+  u_wallace/u_wallace_tree/u_wallace_1_bit_11/C (wallace_tree_1bit_20)
+                                                          0.00       2.13 f
+  u_wallace/u_wallace_tree/cout[11] (wallace_tree)        0.00       2.13 f
+  u_wallace/u_wallace_adder/b[12] (wallace_adder)         0.00       2.13 f
+  u_wallace/u_wallace_adder/U222/Y (AND2X1)               0.15       2.27 f
+  u_wallace/u_wallace_adder/u1_4_carry/g[0] (carry4_6)
+                                                          0.00       2.27 f
+  u_wallace/u_wallace_adder/u1_4_carry/U7/Y (AO21X1)      0.15       2.43 f
+  u_wallace/u_wallace_adder/u1_4_carry/U6/Y (AO21X1)      0.15       2.58 f
+  u_wallace/u_wallace_adder/u1_4_carry/U5/Y (AO21X1)      0.17       2.74 f
+  u_wallace/u_wallace_adder/u1_4_carry/G (carry4_6)       0.00       2.74 f
+  u_wallace/u_wallace_adder/u2_1_carry/g[3] (carry4_5)
+                                                          0.00       2.74 f
+  u_wallace/u_wallace_adder/u2_1_carry/U5/Y (AO21X1)      0.15       2.89 f
+  u_wallace/u_wallace_adder/u2_1_carry/G (carry4_5)       0.00       2.89 f
+  u_wallace/u_wallace_adder/U1/Y (AO21X1)                 0.18       3.07 f
+  u_wallace/u_wallace_adder/u2_2_carry/cin (carry4_0)     0.00       3.07 f
+  u_wallace/u_wallace_adder/u2_2_carry/U1/Y (AO21X1)      0.21       3.28 f
+  u_wallace/u_wallace_adder/u2_2_carry/U2/Y (AO21X1)      0.19       3.47 f
+  u_wallace/u_wallace_adder/u2_2_carry/U3/Y (AO21X1)      0.18       3.65 f
+  u_wallace/u_wallace_adder/u2_2_carry/cout[2] (carry4_0)
+                                                          0.00       3.65 f
+  u_wallace/u_wallace_adder/u1_8_carry/cin (carry4_1)     0.00       3.65 f
+  u_wallace/u_wallace_adder/u1_8_carry/U1/Y (AO21X1)      0.20       3.85 f
+  u_wallace/u_wallace_adder/u1_8_carry/U2/Y (AO21X1)      0.18       4.03 f
+  u_wallace/u_wallace_adder/u1_8_carry/U3/Y (AO21X1)      0.18       4.21 f
+  u_wallace/u_wallace_adder/u1_8_carry/cout[2] (carry4_1)
+                                                          0.00       4.21 f
+  u_wallace/u_wallace_adder/U50/Y (CLKMX2X2)              0.22       4.43 f
+  u_wallace/u_wallace_adder/U51/Y (INVX20)                0.52       4.95 r
+  u_wallace/u_wallace_adder/sum[31] (wallace_adder)       0.00       4.95 r
+  u_wallace/product[31] (wallace)                         0.00       4.95 r
+  product[31] (out)                                       0.00       4.95 r
+  data arrival time                                                  4.95
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

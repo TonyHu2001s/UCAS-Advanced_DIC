@@ -1,0 +1,54 @@
+Loading db file '/home/ICer/library/typical.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : mul_tc_16_16
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:19:36 2023
+****************************************
+
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   3.6402 mW   (12%)
+  Net Switching Power  =  26.4376 mW   (88%)
+                         ---------
+Total Dynamic Power    =  30.0778 mW  (100%)
+
+Cell Leakage Power     =   4.5529 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      3.6402           26.4376        4.5529e+06           30.0824  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total              3.6402 mW        26.4376 mW     4.5529e+06 pW        30.0824 mW
+1

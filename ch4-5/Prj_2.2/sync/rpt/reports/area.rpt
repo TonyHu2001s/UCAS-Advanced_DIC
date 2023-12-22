@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : add_tc_16_16
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 21:53:22 2023
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+Number of ports:                          119
+Number of nets:                           253
+Number of cells:                          157
+Number of combinational cells:            151
+Number of sequential cells:                 1
+Number of macros/black boxes:               0
+Number of buf/inv:                         36
+Number of references:                      16
+
+Combinational area:               1424.118599
+Buf/Inv area:                      439.626603
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1424.118599
+Total area:                 undefined
+1

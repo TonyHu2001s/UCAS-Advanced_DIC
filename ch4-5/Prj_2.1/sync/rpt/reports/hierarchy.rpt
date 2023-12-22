@@ -1,0 +1,24 @@
+Warning: Design 'stop_watch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : hierarchy
+Design : stop_watch
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 14:03:59 2023
+****************************************
+
+Warning: 2 unresolved references are not included in this report. (RPT-2)
+
+stop_watch
+    AND2X2                        typical
+    AND4X1                        typical
+    DFFRX1                        typical
+    NOR2BX1                       typical
+    NOR2X1                        typical
+    NOR4X1                        typical
+    XNOR2X1                       typical
+    stop_watch_DW01_inc_0
+        ADDHXL                    typical
+        CLKINVX1                  typical
+        XOR2X1                    typical
+1

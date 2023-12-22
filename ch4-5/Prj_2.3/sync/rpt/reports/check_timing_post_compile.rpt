@@ -1,0 +1,52 @@
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+product[0]
+product[1]
+product[2]
+product[3]
+product[4]
+product[5]
+product[6]
+product[7]
+product[8]
+product[9]
+product[10]
+product[11]
+product[12]
+product[13]
+product[14]
+product[15]
+product[16]
+product[17]
+product[18]
+product[19]
+product[20]
+product[21]
+product[22]
+product[23]
+product[24]
+product[25]
+product[26]
+product[27]
+product[28]
+product[29]
+product[30]
+product[31]
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

@@ -1,0 +1,40 @@
+ 
+****************************************
+Report : reference
+Design : add_tc_16_16
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 21:53:22 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2X1             typical        6.789600      14     95.054399  
+CLKINVX1           typical        3.394800      19     64.501199  
+CLKMX2X2           typical       13.579200      14    190.108797  
+INVX20             typical       22.066200      17    375.125404  
+MXI2X1             typical       11.881800       1     11.881800  
+NAND2X1            typical        5.092200       3     15.276599  
+NOR2X1             typical        5.092200      29    147.673794  
+OA21X2             typical       10.184400       1     10.184400  
+OAI21XL            typical        6.789600       1      6.789600  
+XNOR2X1            typical       11.881800      14    166.345196  
+XOR2X1             typical       11.881800       3     35.645399  
+carry4_0                         61.106402       1     61.106402  h
+carry4_1                         61.106402       1     61.106402  h
+carry4_2                         61.106402       1     61.106402  h
+carry4_3                         61.106402       1     61.106402  h
+carry4_4                         61.106402       1     61.106402  h
+-----------------------------------------------------------------------------
+Total 16 references                                  1424.118599
+1

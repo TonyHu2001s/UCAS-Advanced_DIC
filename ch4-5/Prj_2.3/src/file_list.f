@@ -1,0 +1,11 @@
+../../src/tb_mul_tc_16_16.v
+../../src/mul_tc_16_16.v
+../../src/booth.v
+../../src/booth_code.v
+../../src/wallace.v
+../../src/wallace_tree.v
+../../src/wallace_tree_1bit.v
+../../src/full_adder.v
+../../src/half_adder.v
+../../src/wallace_adder.v
+../../src/carry4.v

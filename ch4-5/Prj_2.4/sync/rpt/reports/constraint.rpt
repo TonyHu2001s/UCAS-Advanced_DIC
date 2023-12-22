@@ -1,0 +1,276 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : bsh_32
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:35:12 2023
+****************************************
+
+
+    Net: data_out[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[8]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[9]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[10]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[11]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[12]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[13]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[14]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[15]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[16]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[17]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[18]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[19]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[20]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[21]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[22]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[23]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[24]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[25]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[26]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[27]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[28]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[29]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[30]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: data_out[31]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Design: bsh_32
+
+    max_area               0.00
+  - Current Area        4686.52
+  ------------------------------
+    Slack              -4686.52  (VIOLATED)
+
+
+1

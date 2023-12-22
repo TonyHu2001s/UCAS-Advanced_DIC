@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : add_tc_16_16
+Version: O-2018.06-SP1
+Date   : Tue Dec  5 21:53:22 2023
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: a[1] (input port)
+  Endpoint: sum[16] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[1] (in)                                0.00       0.00 f
+  U183/Y (NOR2X1)                          0.10       0.10 r
+  U182/Y (CLKINVX1)                        0.05       0.15 f
+  u0_carry/p[1] (carry4_4)                 0.00       0.15 f
+  u0_carry/U7/Y (AO21X1)                   0.17       0.32 f
+  u0_carry/U6/Y (AO21X1)                   0.15       0.47 f
+  u0_carry/U5/Y (AO21X1)                   0.18       0.65 f
+  u0_carry/G (carry4_4)                    0.00       0.65 f
+  u4_carry/g[0] (carry4_0)                 0.00       0.65 f
+  u4_carry/U3/Y (AO21X1)                   0.18       0.83 f
+  u4_carry/U2/Y (AO21X1)                   0.19       1.02 f
+  u4_carry/U1/Y (AO21X1)                   0.18       1.20 f
+  u4_carry/cout[2] (carry4_0)              0.00       1.20 f
+  u3_carry/cin (carry4_1)                  0.00       1.20 f
+  u3_carry/U3/Y (AO21X1)                   0.20       1.40 f
+  u3_carry/U2/Y (AO21X1)                   0.18       1.59 f
+  u3_carry/U1/Y (AO21X1)                   0.19       1.77 f
+  u3_carry/cout[2] (carry4_1)              0.00       1.77 f
+  U153/Y (MXI2X1)                          0.10       1.88 f
+  U133/Y (OA21X2)                          0.19       2.06 f
+  U134/Y (INVX20)                          0.50       2.57 r
+  sum[16] (out)                            0.00       2.57 r
+  data arrival time                                   2.57
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

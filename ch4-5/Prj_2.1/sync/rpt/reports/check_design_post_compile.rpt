@@ -1,0 +1,21 @@
+Warning: Design 'stop_watch' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Tue Dec  5 14:03:59 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      2
+    Multiply driven inputs (LINT-6)                                 2
+
+Tristate                                                            1
+    A tristate bus has a non tri-state driver (LINT-34)             1
+--------------------------------------------------------------------------------
+
+Warning: In design 'stop_watch', input port 'rst_n' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'stop_watch', input port 'clear' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'stop_watch', three-state bus 'clk_gated' has non three-state driver 'C94/Y'. (LINT-34)
+1

@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : reference
+Design : bsh_32
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:35:13 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AO22X1             typical       10.184400      16    162.950394  
+AOI2BB2X1          typical       10.184400       8     81.475197  
+AOI22X1            typical       10.184400      53    539.773179  
+AOI22XL            typical       10.184400       3     30.553199  
+AOI221XL           typical       11.881800      32    380.217590  
+CLKINVX1           typical        3.394800     108    366.638394  
+INVX3              typical        5.092200       4     20.368799  
+INVX20             typical       22.066200      32    706.118408  
+NAND2X1            typical        5.092200       6     30.553199  
+NAND2X2            typical        8.487000       4     33.948002  
+NOR2X1             typical        5.092200       2     10.184400  
+OA22X1             typical       10.184400      64    651.801575  
+OAI2BB2XL          typical       10.184400       9     91.659596  
+OAI22XL            typical        8.487000       7     59.409003  
+OAI221XL           typical       11.881800     128   1520.870361  
+-----------------------------------------------------------------------------
+Total 15 references                                  4686.521297
+1

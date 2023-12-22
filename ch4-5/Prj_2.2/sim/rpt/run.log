@@ -1,0 +1,11 @@
+Command: /home/ICer/homework/Verilog/ch4-5/Prj_2.2/sim/script/./add_tc_16_16 -l ../rpt/run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Dec  5 21:43 2023
+VCD+ Writer O-2018.09-1_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+$finish called from file "../../src/tb_add_tc_16_16.v", line 20.
+$finish at simulation time                   30
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 30 ns
+CPU Time:      0.740 seconds;       Data structure size:   0.0Mb
+Tue Dec  5 21:43:42 2023

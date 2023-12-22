@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : cell
+Design : mul_tc_16_16
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:19:36 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+u_booth                   booth                           4321.580388
+                                                                    h
+u_wallace                 wallace                         9907.723594
+                                                                    h
+--------------------------------------------------------------------------------
+Total 2 cells                                             14229.303982
+1

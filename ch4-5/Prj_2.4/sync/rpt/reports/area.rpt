@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : bsh_32
+Version: O-2018.06-SP1
+Date   : Sat Dec  9 23:35:13 2023
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+Number of ports:                           70
+Number of nets:                           514
+Number of cells:                          476
+Number of combinational cells:            476
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        144
+Number of references:                      15
+
+Combinational area:               4686.521297
+Buf/Inv area:                     1093.125602
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  4686.521297
+Total area:                 undefined
+1
