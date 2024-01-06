@@ -1,0 +1,21 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : clocks
+Design : mat_scan
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:27:58 2024
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+clk            100.00   {0 50}                        {clk}
+--------------------------------------------------------------------------------
+1

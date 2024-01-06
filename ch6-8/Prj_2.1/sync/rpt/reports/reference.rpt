@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : reference
+Design : sqrt
+Version: O-2018.06-SP1
+Date   : Mon Jan  1 20:41:51 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND4X1             typical       10.184400       9     91.659596  
+AO22X1             typical       10.184400     221   2250.752313  
+AOI2BB1X1          typical        8.487000       4     33.948002  
+AOI32X1            typical       11.881800       2     23.763599  
+AOI211X1           typical        8.487000      13    110.331006  
+AOI221XL           typical       11.881800      73    867.371378  
+AOI222XL           typical       13.579200     420   5703.263912  
+CLKBUFX3           typical        6.789600       4     27.158400  
+CLKINVX1           typical        3.394800     444   1507.291177  
+DFFRX1             typical       32.250599     874  28187.023445  n
+DFFRXL             typical       32.250599       1     32.250599  n
+INVX3              typical        5.092200       4     20.368799  
+INVX20             typical       22.066200      17    375.125404  
+NAND2BX1           typical        6.789600       3     20.368800  
+NAND2X1            typical        5.092200      14     71.290797  
+NAND3X1            typical        6.789600       3     20.368800  
+NAND4X1            typical        8.487000      52    441.324024  
+NOR2X1             typical        5.092200      20    101.843996  
+NOR3X1             typical        6.789600      36    244.425596  
+NOR4X1             typical        8.487000     166   1408.842077  
+OAI2BB1X1          typical        8.487000       4     33.948002  
+OAI2BB2XL          typical       10.184400       8     81.475197  
+OAI21XL            typical        6.789600      26    176.529597  
+OAI22XL            typical        8.487000     191   1621.017089  
+OAI211X1           typical        8.487000      22    186.714010  
+OAI221XL           typical       11.881800      29    344.572191  
+OR2X1              typical        6.789600      12     81.475199  
+XNOR2X1            typical       11.881800       1     11.881800  
+sqrt_DW01_sub_0                 799.475419       1    799.475419  h
+sqrt_DW01_sub_1                 780.804017       1    780.804017  h
+sqrt_DW01_sub_2                 762.132615       1    762.132615  h
+sqrt_DW01_sub_3                 743.461213       1    743.461213  h
+sqrt_DW01_sub_4                 724.789810       1    724.789810  h
+sqrt_DW01_sub_5                 706.118408       1    706.118408  h
+sqrt_DW01_sub_6                 687.447006       1    687.447006  h
+sqrt_DW01_sub_7                 668.775604       1    668.775604  h
+sqrt_DW01_sub_8                 650.104202       1    650.104202  h
+sqrt_DW01_sub_9                 631.432799       1    631.432799  h
+sqrt_DW01_sub_10                612.761397       1    612.761397  h
+sqrt_DW01_sub_11                594.089995       1    594.089995  h
+sqrt_DW01_sub_12                575.418593       1    575.418593  h
+sqrt_DW01_sub_13                556.747190       1    556.747190  h
+-----------------------------------------------------------------------------
+Total 42 references                                 53569.943074
+1

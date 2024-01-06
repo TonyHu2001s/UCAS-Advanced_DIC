@@ -1,0 +1,108 @@
+ 
+****************************************
+Report : hierarchy
+Design : sqrt
+Version: O-2018.06-SP1
+Date   : Mon Jan  1 20:41:51 2024
+****************************************
+
+sqrt
+    AND4X1                   typical
+    AO22X1                   typical
+    AOI2BB1X1                typical
+    AOI32X1                  typical
+    AOI211X1                 typical
+    AOI221XL                 typical
+    AOI222XL                 typical
+    CLKBUFX3                 typical
+    CLKINVX1                 typical
+    DFFRX1                   typical
+    DFFRXL                   typical
+    INVX3                    typical
+    INVX20                   typical
+    NAND2BX1                 typical
+    NAND2X1                  typical
+    NAND3X1                  typical
+    NAND4X1                  typical
+    NOR2X1                   typical
+    NOR3X1                   typical
+    NOR4X1                   typical
+    OAI2BB1X1                typical
+    OAI2BB2XL                typical
+    OAI21XL                  typical
+    OAI22XL                  typical
+    OAI211X1                 typical
+    OAI221XL                 typical
+    OR2X1                    typical
+    XNOR2X1                  typical
+    sqrt_DW01_sub_0
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_1
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_2
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_3
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_4
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_5
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_6
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_7
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_8
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_9
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_10
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_11
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_12
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+    sqrt_DW01_sub_13
+        ADDFXL               typical
+        CLKINVX1             typical
+        OR2X1                typical
+        XNOR2X1              typical
+1

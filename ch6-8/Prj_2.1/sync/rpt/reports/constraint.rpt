@@ -1,0 +1,966 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : sqrt
+Version: O-2018.06-SP1
+Date   : Mon Jan  1 20:41:49 2024
+****************************************
+
+
+  Startpoint: x_cpl_reg[1][32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][32]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][32]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[1][32]/QN (DFFRX1)             0.25       2.75 r
+  U3269/Y (OAI21XL)                        0.05       2.79 f
+  x_cpl_reg[1][32]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][32]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.01
+
+
+  Startpoint: x_cpl_reg[1][33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][33]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][33]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[1][33]/QN (DFFRX1)             0.25       2.75 r
+  U2629/Y (OAI21XL)                        0.05       2.79 f
+  x_cpl_reg[1][33]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][33]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.01
+
+
+  Startpoint: x_cpl_reg[0][27]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][29]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][27]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][27]/QN (DFFRX1)             0.25       2.75 r
+  U3626/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][29]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][29]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][26]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][28]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][26]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][26]/QN (DFFRX1)             0.25       2.75 r
+  U3624/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][28]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][28]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][25]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][25]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][25]/QN (DFFRX1)             0.25       2.75 r
+  U3611/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][27]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][27]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][24]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][26]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][24]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][24]/QN (DFFRX1)             0.25       2.75 r
+  U3608/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][26]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][26]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][23]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][23]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][23]/QN (DFFRX1)             0.25       2.75 r
+  U3592/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][25]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][25]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][22]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][24]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][22]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][22]/QN (DFFRX1)             0.25       2.75 r
+  U3573/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][24]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][24]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][21]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][21]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][21]/QN (DFFRX1)             0.25       2.75 r
+  U3543/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][23]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][23]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][20]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][22]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][20]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][20]/QN (DFFRX1)             0.25       2.75 r
+  U3525/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][22]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][22]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][19]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][21]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][19]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][19]/QN (DFFRX1)             0.25       2.75 r
+  U3519/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][21]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][21]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][18]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][20]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][18]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][18]/QN (DFFRX1)             0.25       2.75 r
+  U3517/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][20]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][20]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][17]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][19]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][17]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][17]/QN (DFFRX1)             0.25       2.75 r
+  U3507/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][19]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][19]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][16]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][18]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][16]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][16]/QN (DFFRX1)             0.25       2.75 r
+  U3491/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][18]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][18]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][17]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][15]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][15]/QN (DFFRX1)             0.25       2.75 r
+  U3487/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][17]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][17]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][16]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][14]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][14]/QN (DFFRX1)             0.25       2.75 r
+  U3483/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][16]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][16]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][13]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[1][13]/QN (DFFRX1)             0.25       2.75 r
+  U3475/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][13]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][13]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][12]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[1][12]/QN (DFFRX1)             0.25       2.75 r
+  U3461/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][12]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][12]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][10]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[1][10]/QN (DFFRX1)             0.25       2.75 r
+  U3457/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][10]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][10]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][8]/CK (DFFRX1)              0.00       2.50 r
+  x_cpl_reg[1][8]/QN (DFFRX1)              0.25       2.75 r
+  U3455/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][8]/D (DFFRX1)               0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][8]/CK (DFFRX1)              0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][7]/CK (DFFRX1)              0.00       2.50 r
+  x_cpl_reg[1][7]/QN (DFFRX1)              0.25       2.75 r
+  U3445/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][7]/D (DFFRX1)               0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][7]/CK (DFFRX1)              0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][6]/CK (DFFRX1)              0.00       2.50 r
+  x_cpl_reg[1][6]/QN (DFFRX1)              0.25       2.75 r
+  U3429/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][6]/D (DFFRX1)               0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][6]/CK (DFFRX1)              0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][4]/CK (DFFRX1)              0.00       2.50 r
+  x_cpl_reg[1][4]/QN (DFFRX1)              0.25       2.75 r
+  U3394/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][4]/D (DFFRX1)               0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][4]/CK (DFFRX1)              0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][3]/CK (DFFRX1)              0.00       2.50 r
+  x_cpl_reg[1][3]/QN (DFFRX1)              0.25       2.75 r
+  U3393/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][3]/D (DFFRX1)               0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][3]/CK (DFFRX1)              0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[1][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[1][2]/CK (DFFRX1)              0.00       2.50 r
+  x_cpl_reg[1][2]/QN (DFFRX1)              0.25       2.75 r
+  U3391/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][2]/D (DFFRX1)               0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][2]/CK (DFFRX1)              0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][29]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][29]/QN (DFFRX1)             0.25       2.75 r
+  U3388/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][31]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][31]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+  Startpoint: x_cpl_reg[0][28]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[1][30]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  x_cpl_reg[0][28]/CK (DFFRX1)             0.00       2.50 r
+  x_cpl_reg[0][28]/QN (DFFRX1)             0.25       2.75 r
+  U3387/Y (OAI22XL)                        0.05       2.79 f
+  x_cpl_reg[1][30]/D (DFFRX1)              0.00       2.79 f
+  data arrival time                                   2.79
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              2.50       2.50
+  clock uncertainty                        0.30       2.80
+  x_cpl_reg[1][30]/CK (DFFRX1)             0.00       2.80 r
+  library hold time                        0.00       2.80
+  data required time                                  2.80
+  -----------------------------------------------------------
+  data required time                                  2.80
+  data arrival time                                  -2.79
+  -----------------------------------------------------------
+  slack (VIOLATED: increase significant digits)       0.00
+
+
+    Net: vld_out
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[8]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[9]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[10]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[11]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[12]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[13]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[14]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: y[15]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Design: sqrt
+
+    max_area               0.00
+  - Current Area       53569.94
+  ------------------------------
+    Slack              -53569.94  (VIOLATED)
+
+
+1

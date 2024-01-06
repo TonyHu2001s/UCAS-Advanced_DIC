@@ -1,0 +1,38 @@
+{
+    "wallace_tree_1bit": [
+        "wallace_tree_1bit",
+        "N1InZ",
+        "module",
+        4
+    ],
+    "booth_code": [
+        "booth_code",
+        "IVpGc",
+        "module",
+        3
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "tb_mul_tc_16_16": [
+        "tb_mul_tc_16_16",
+        "SzwIA",
+        "module",
+        2
+    ],
+    "carry4": [
+        "carry4",
+        "qa6bC",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ]
+}

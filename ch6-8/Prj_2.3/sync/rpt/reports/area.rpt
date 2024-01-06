@@ -1,0 +1,33 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : mat_scan
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:27:58 2024
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+Number of ports:                           24
+Number of nets:                            86
+Number of cells:                           60
+Number of combinational cells:             49
+Number of sequential cells:                11
+Number of macros/black boxes:               0
+Number of buf/inv:                          9
+Number of references:                      26
+
+Combinational area:                407.375998
+Buf/Inv area:                       49.224600
+Noncombinational area:             310.624195
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   718.000194
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

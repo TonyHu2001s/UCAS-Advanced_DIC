@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : reference
+Design : sram
+Version: O-2018.06-SP1
+Date   : Thu Jan  4 00:00:39 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND3X2             typical        8.487000       2     16.974001  
+AO22X1             typical       10.184400      32    325.900787  
+AOI221XL           typical       11.881800      32    380.217590  
+CLKINVX1           typical        3.394800      29     98.449198  
+DFFRX1             typical       32.250599     136   4386.081451  n
+INVX20             typical       22.066200       8    176.529602  
+NAND2X1            typical        5.092200      20    101.843996  
+NOR2BX1            typical        6.789600       3     20.368800  
+NOR2X1             typical        5.092200      11     56.014198  
+NOR3BXL            typical        8.487000       2     16.974001  
+OA22X1             typical       10.184400       8     81.475197  
+OAI2BB2XL          typical       10.184400       8     81.475197  
+OAI22XL            typical        8.487000     128   1086.336060  
+OAI221XL           typical       11.881800       8     95.054398  
+-----------------------------------------------------------------------------
+Total 14 references                                  6923.694476
+1

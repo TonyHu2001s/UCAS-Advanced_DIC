@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/home/synopsys/vcs-mx/O-2018.09-1/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib:/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/home/synopsys/vcs-mx/O-2018.09-1/linux64/bin/vcsfind_create_index.exe  -z  "/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.4/sim/script/sram_ctr_ahb.daidir/debug_dump/fsearch/./idents_hd8eG2.xml.gz" "/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.4/sim/script/sram_ctr_ahb.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.4/sim/script/sram_ctr_ahb.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.4/sim/script/sram_ctr_ahb.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.4/sim/script/sram_ctr_ahb.daidir/debug_dump/fsearch/fsearch.db"

@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : reference
+Design : sort_32_u8
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:44:14 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2X2             typical        6.789600     250   1697.399974  
+AND3X1             typical        8.487000     124   1052.388058  
+AND3X2             typical        8.487000     288   2444.256134  
+AOI222XL           typical       13.579200     256   3476.275146  
+CLKBUFX3           typical        6.789600       2     13.579200  
+CLKINVX1           typical        3.394800     395   1340.945979  
+DFFRX1             typical       32.250599     257   8288.403919  n
+INVX20             typical       22.066200     257   5671.013466  
+NAND2BX1           typical        6.789600     514   3489.854346  
+NAND2X1            typical        5.092200    1154   5876.398572  
+NAND3BX1           typical        8.487000     260   2206.620121  
+NAND3X1            typical        6.789600      34    230.846396  
+NAND3XL            typical        6.789600       1      6.789600  
+NAND4X1            typical        8.487000       4     33.948002  
+NOR2BX1            typical        6.789600      36    244.425596  
+NOR2X1             typical        5.092200      92    468.482382  
+NOR3X1             typical        6.789600     125    848.699987  
+NOR4X1             typical        8.487000     768   6518.016357  
+OA21XL             typical        8.487000      32    271.584015  
+OAI22XL            typical        8.487000    4096  34762.753906  
+OAI211X1           typical        8.487000      28    237.636013  
+OAI221XL           typical       11.881800     256   3041.740723  
+OR2X1              typical        6.789600     226   1534.449576  
+OR4X1              typical       10.184400     288   2933.107086  
+sort_score_0                   8288.404139       1   8288.404139  h, n
+sort_score_1                   8291.798939       1   8291.798939  h, n
+sort_score_2                   8288.404139       1   8288.404139  h, n
+sort_score_3                   8291.798939       1   8291.798939  h, n
+sort_score_4                   8291.798939       1   8291.798939  h, n
+sort_score_5                   8291.798939       1   8291.798939  h, n
+sort_score_6                   8291.798939       1   8291.798939  h, n
+sort_score_7                   8291.798939       1   8291.798939  h, n
+sort_score_8                   8291.798939       1   8291.798939  h, n
+sort_score_9                   8291.798939       1   8291.798939  h, n
+sort_score_10                  8291.798939       1   8291.798939  h, n
+sort_score_11                  8291.798939       1   8291.798939  h, n
+sort_score_12                  8291.798939       1   8291.798939  h, n
+sort_score_13                  8291.798939       1   8291.798939  h, n
+sort_score_14                  8291.798939       1   8291.798939  h, n
+sort_score_15                  8291.798939       1   8291.798939  h, n
+sort_score_16                  8291.798939       1   8291.798939  h, n
+sort_score_17                  8291.798939       1   8291.798939  h, n
+sort_score_18                  8291.798939       1   8291.798939  h, n
+sort_score_19                  8291.798939       1   8291.798939  h, n
+sort_score_20                  8291.798939       1   8291.798939  h, n
+sort_score_21                  8291.798939       1   8291.798939  h, n
+sort_score_22                  8291.798939       1   8291.798939  h, n
+sort_score_23                  8291.798939       1   8291.798939  h, n
+sort_score_24                  8291.798939       1   8291.798939  h, n
+sort_score_25                  8291.798939       1   8291.798939  h, n
+sort_score_26                  8291.798939       1   8291.798939  h, n
+sort_score_27                  8291.798939       1   8291.798939  h, n
+sort_score_28                  8291.798939       1   8291.798939  h, n
+sort_score_29                  8291.798939       1   8291.798939  h, n
+sort_score_30                  8291.798939       1   8291.798939  h, n
+sort_score_31                  8291.798939       1   8291.798939  h, n
+-----------------------------------------------------------------------------
+Total 56 references                                 352020.390996
+1

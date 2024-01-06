@@ -1,0 +1,84 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : cell
+Design : mat_scan
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:27:58 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    p - parameterized
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U46                       INVX20          typical         22.066200 
+U47                       CLKINVX1        typical         3.394800  
+U48                       NOR2X1          typical         5.092200  
+U49                       NAND2X1         typical         5.092200  
+U50                       CLKINVX1        typical         3.394800  
+U51                       CLKINVX1        typical         3.394800  
+U52                       OAI2BB2XL       typical         10.184400 
+U53                       AOI211X1        typical         8.487000  
+U54                       NOR3X1          typical         6.789600  
+U55                       NAND2X1         typical         5.092200  
+U56                       AND2X2          typical         6.789600  
+U57                       AOI211X1        typical         8.487000  
+U58                       OAI21XL         typical         6.789600  
+U59                       CLKINVX1        typical         3.394800  
+U60                       AOI22X1         typical         10.184400 
+U61                       CLKINVX1        typical         3.394800  
+U62                       OAI21XL         typical         6.789600  
+U63                       NAND2X1         typical         5.092200  
+U64                       NAND2X1         typical         5.092200  
+U65                       OAI2BB2XL       typical         10.184400 
+U66                       AOI211X1        typical         8.487000  
+U67                       AND4X1          typical         10.184400 
+U68                       NAND3X1         typical         6.789600  
+U69                       AO22X1          typical         10.184400 
+U70                       NAND2X1         typical         5.092200  
+U71                       OAI31XL         typical         8.487000  
+U72                       ADDHXL          typical         18.671400 mo, r
+U73                       ADDHXL          typical         18.671400 mo, r
+U74                       ADDHXL          typical         18.671400 mo, r
+U75                       CLKINVX1        typical         3.394800  
+U76                       AOI33X1         typical         13.579200 
+U77                       NAND2X1         typical         5.092200  
+U78                       NAND2BX1        typical         6.789600  
+U79                       OAI2BB1X1       typical         8.487000  
+U80                       OAI21XL         typical         6.789600  
+U81                       AOI21X1         typical         8.487000  
+U82                       CLKINVX1        typical         3.394800  
+U83                       AO22X1          typical         10.184400 
+U84                       OAI211X1        typical         8.487000  
+U85                       NAND3X1         typical         6.789600  
+U86                       AO22X1          typical         10.184400 
+U87                       OAI22XL         typical         8.487000  
+U88                       NOR3X1          typical         6.789600  
+U89                       ADDHXL          typical         18.671400 mo, r
+U90                       AOI211X1        typical         8.487000  
+U91                       AND2X2          typical         6.789600  
+U92                       OR2X1           typical         6.789600  
+U93                       CLKINVX1        typical         3.394800  
+U94                       XOR2X1          typical         11.881800 
+addr_reg[0]               DFFSX1          typical         30.553200 n, so
+addr_reg[1]               DFFSX1          typical         30.553200 n, so
+addr_reg[2]               DFFSX1          typical         30.553200 n, so
+addr_reg[3]               DFFSX1          typical         30.553200 n, so
+addr_reg[4]               DFFSX1          typical         30.553200 n, so
+addr_reg[5]               DFFSX1          typical         30.553200 n, so
+cs_n_reg                  DFFSX1          typical         30.553200 n, so
+r_en_reg                  DFFRX1          typical         32.250599 n, so
+u_sram                    sram                            0.000000  b, p
+vld_out_reg               DFFRX1          typical         32.250599 n
+w_en_reg                  DFFRX1          typical         32.250599 n, so
+--------------------------------------------------------------------------------
+Total 60 cells                                            718.000194
+1

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : sort_32_u8
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:44:14 2024
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+Number of ports:                         9156
+Number of nets:                         46932
+Number of cells:                        36977
+Number of combinational cells:          35470
+Number of sequential cells:              1475
+Number of macros/black boxes:               0
+Number of buf/inv:                       7950
+Number of references:                      56
+
+Combinational area:             304515.258805
+Buf/Inv area:                    32004.476660
+Noncombinational area:           47505.132191
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                352020.390996
+Total area:                 undefined
+1

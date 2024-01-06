@@ -1,0 +1,37 @@
+Command: vcs -full64 +v2k -timescale=1ns/1ns -debug_acc+all -sverilog -o mat_scan \
+-l ../rpt/compile.log 	 -f ../../src/file_list.f
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Wed Jan  3 23:19:26 2024
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../src/tb_mat_scan.v'
+Parsing design file '../../src/mat_scan.v'
+Parsing design file '../../src/sram.v'
+Top Level Modules:
+       testbench
+TimeScale is 1 ns / 1 ns
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module testbench
+make[1]: Entering directory '/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.3/sim/script/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../mat_scan ]; then chmod -x ../mat_scan; fi
+g++  -o ../mat_scan    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/mat_scan.daidir/ -Wl,-rpath=./mat_scan.daidir/ \
+-Wl,-rpath='$ORIGIN'/mat_scan.daidir//scsim.db.dir  -rdynamic  -Wl,-rpath=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib \
+-L/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib   objs/amcQw_d.o   _38208_archive_1.so \
+SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o \
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm \
+-lpthread -ldl 
+../mat_scan up to date
+make[1]: Leaving directory '/home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.3/sim/script/csrc' \
+
+CPU time: .730 seconds to compile + .814 seconds to elab + .712 seconds to link

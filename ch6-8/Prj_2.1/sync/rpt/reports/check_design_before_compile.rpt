@@ -1,0 +1,30 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Mon Jan  1 20:41:01 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              16
+    Cells do not drive (LINT-1)                                    16
+--------------------------------------------------------------------------------
+
+Warning: In design 'sqrt', cell 'C14098' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14111' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14124' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14137' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14150' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14162' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14174' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14186' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14198' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14210' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14222' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14234' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14246' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14258' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14269' does not drive any nets. (LINT-1)
+Warning: In design 'sqrt', cell 'C14273' does not drive any nets. (LINT-1)
+1

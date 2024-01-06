@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : hierarchy
+Design : sram
+Version: O-2018.06-SP1
+Date   : Thu Jan  4 00:00:39 2024
+****************************************
+
+sram
+    AND3X2            typical
+    AO22X1            typical
+    AOI221XL          typical
+    CLKINVX1          typical
+    DFFRX1            typical
+    INVX20            typical
+    NAND2X1           typical
+    NOR2BX1           typical
+    NOR2X1            typical
+    NOR3BXL           typical
+    OA22X1            typical
+    OAI2BB2XL         typical
+    OAI22XL           typical
+    OAI221XL          typical
+1

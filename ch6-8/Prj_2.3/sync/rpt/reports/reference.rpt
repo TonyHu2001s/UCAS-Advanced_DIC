@@ -1,0 +1,51 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : mat_scan
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:27:58 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+ADDHXL             typical       18.671400       4     74.685600  r
+AND2X2             typical        6.789600       2     13.579200  
+AND4X1             typical       10.184400       1     10.184400  
+AO22X1             typical       10.184400       3     30.553199  
+AOI21X1            typical        8.487000       1      8.487000  
+AOI22X1            typical       10.184400       1     10.184400  
+AOI33X1            typical       13.579200       1     13.579200  
+AOI211X1           typical        8.487000       4     33.948002  
+CLKINVX1           typical        3.394800       8     27.158400  
+DFFRX1             typical       32.250599       3     96.751797  n
+DFFSX1             typical       30.553200       7    213.872398  n
+INVX20             typical       22.066200       1     22.066200  
+NAND2BX1           typical        6.789600       1      6.789600  
+NAND2X1            typical        5.092200       6     30.553199  
+NAND3X1            typical        6.789600       2     13.579200  
+NOR2X1             typical        5.092200       1      5.092200  
+NOR3X1             typical        6.789600       2     13.579200  
+OAI2BB1X1          typical        8.487000       1      8.487000  
+OAI2BB2XL          typical       10.184400       2     20.368799  
+OAI21XL            typical        6.789600       3     20.368800  
+OAI22XL            typical        8.487000       1      8.487000  
+OAI31XL            typical        8.487000       1      8.487000  
+OAI211X1           typical        8.487000       1      8.487000  
+OR2X1              typical        6.789600       1      6.789600  
+XOR2X1             typical       11.881800       1     11.881800  
+sram                              0.000000       1      0.000000  b
+-----------------------------------------------------------------------------
+Total 26 references                                   718.000194
+1

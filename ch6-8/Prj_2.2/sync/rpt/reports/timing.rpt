@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : sort_32_u8
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:44:14 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: u_score_0/score_21_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_score_0/out_score_reg_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_score_0/score_21_reg/CK (DFFRXL)                      0.00 #     0.00 r
+  u_score_0/score_21_reg/Q (DFFRXL)                       0.32       0.32 r
+  u_score_0/U168/CO (ADDFXL)                              0.41       0.73 r
+  u_score_0/U153/S (ADDFXL)                               0.44       1.17 f
+  u_score_0/U88/S (ADDFXL)                                0.43       1.60 f
+  u_score_0/U89/S (ADDFXL)                                0.43       2.04 f
+  u_score_0/U156/CO (ADDFXL)                              0.42       2.46 f
+  u_score_0/U157/CO (ADDFXL)                              0.23       2.69 f
+  u_score_0/U159/CO (ADDFXL)                              0.23       2.91 f
+  u_score_0/U181/Y (XOR2X1)                               0.11       3.02 f
+  u_score_0/U801/Y (CLKMX2X2)                             0.10       3.13 f
+  u_score_0/out_score_reg_reg[4]/D (DFFRXL)               0.00       3.13 f
+  data arrival time                                                  3.13
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_score_0/out_score_reg_reg[4]/CK (DFFRXL)              0.00     100.00 r
+  library setup time                                     -0.16      99.84
+  data required time                                                99.84
+  --------------------------------------------------------------------------
+  data required time                                                99.84
+  data arrival time                                                 -3.13
+  --------------------------------------------------------------------------
+  slack (MET)                                                       96.71
+
+
+1

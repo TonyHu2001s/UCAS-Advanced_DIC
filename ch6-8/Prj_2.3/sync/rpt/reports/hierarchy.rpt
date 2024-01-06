@@ -1,0 +1,38 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : hierarchy
+Design : mat_scan
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:27:58 2024
+****************************************
+
+Warning: 1 unresolved references are not included in this report. (RPT-2)
+
+mat_scan
+    ADDHXL            typical
+    AND2X2            typical
+    AND4X1            typical
+    AO22X1            typical
+    AOI21X1           typical
+    AOI22X1           typical
+    AOI33X1           typical
+    AOI211X1          typical
+    CLKINVX1          typical
+    DFFRX1            typical
+    DFFSX1            typical
+    INVX20            typical
+    NAND2BX1          typical
+    NAND2X1           typical
+    NAND3X1           typical
+    NOR2X1            typical
+    NOR3X1            typical
+    OAI2BB1X1         typical
+    OAI2BB2XL         typical
+    OAI21XL           typical
+    OAI22XL           typical
+    OAI31XL           typical
+    OAI211X1          typical
+    OR2X1             typical
+    XOR2X1            typical
+1

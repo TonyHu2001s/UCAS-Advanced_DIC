@@ -1,0 +1,447 @@
+ 
+****************************************
+Report : cell
+Design : sram
+Version: O-2018.06-SP1
+Date   : Thu Jan  4 00:00:39 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U190                      INVX20          typical         22.066200 
+U191                      INVX20          typical         22.066200 
+U192                      INVX20          typical         22.066200 
+U193                      INVX20          typical         22.066200 
+U194                      INVX20          typical         22.066200 
+U195                      INVX20          typical         22.066200 
+U196                      INVX20          typical         22.066200 
+U197                      INVX20          typical         22.066200 
+U198                      NOR3BXL         typical         8.487000  
+U199                      NOR3BXL         typical         8.487000  
+U200                      NOR2BX1         typical         6.789600  
+U201                      NOR2X1          typical         5.092200  
+U202                      CLKINVX1        typical         3.394800  
+U203                      CLKINVX1        typical         3.394800  
+U204                      CLKINVX1        typical         3.394800  
+U205                      CLKINVX1        typical         3.394800  
+U206                      CLKINVX1        typical         3.394800  
+U207                      CLKINVX1        typical         3.394800  
+U208                      CLKINVX1        typical         3.394800  
+U209                      CLKINVX1        typical         3.394800  
+U210                      NOR2X1          typical         5.092200  
+U211                      NOR2BX1         typical         6.789600  
+U212                      CLKINVX1        typical         3.394800  
+U213                      CLKINVX1        typical         3.394800  
+U214                      CLKINVX1        typical         3.394800  
+U215                      CLKINVX1        typical         3.394800  
+U216                      CLKINVX1        typical         3.394800  
+U217                      CLKINVX1        typical         3.394800  
+U218                      CLKINVX1        typical         3.394800  
+U219                      CLKINVX1        typical         3.394800  
+U220                      CLKINVX1        typical         3.394800  
+U221                      CLKINVX1        typical         3.394800  
+U222                      CLKINVX1        typical         3.394800  
+U223                      CLKINVX1        typical         3.394800  
+U224                      CLKINVX1        typical         3.394800  
+U225                      CLKINVX1        typical         3.394800  
+U226                      CLKINVX1        typical         3.394800  
+U227                      CLKINVX1        typical         3.394800  
+U228                      CLKINVX1        typical         3.394800  
+U229                      NAND2X1         typical         5.092200  
+U230                      NAND2X1         typical         5.092200  
+U231                      NAND2X1         typical         5.092200  
+U232                      NAND2X1         typical         5.092200  
+U233                      NAND2X1         typical         5.092200  
+U234                      NAND2X1         typical         5.092200  
+U235                      NAND2X1         typical         5.092200  
+U236                      NAND2X1         typical         5.092200  
+U237                      NAND2X1         typical         5.092200  
+U238                      NAND2X1         typical         5.092200  
+U239                      NAND2X1         typical         5.092200  
+U240                      NAND2X1         typical         5.092200  
+U241                      NAND2X1         typical         5.092200  
+U242                      NAND2X1         typical         5.092200  
+U243                      NAND2X1         typical         5.092200  
+U244                      NAND2X1         typical         5.092200  
+U245                      NOR2X1          typical         5.092200  
+U246                      NOR2X1          typical         5.092200  
+U247                      OAI22XL         typical         8.487000  
+U248                      OAI22XL         typical         8.487000  
+U249                      OAI22XL         typical         8.487000  
+U250                      OAI22XL         typical         8.487000  
+U251                      OAI22XL         typical         8.487000  
+U252                      OAI22XL         typical         8.487000  
+U253                      OAI22XL         typical         8.487000  
+U254                      OAI22XL         typical         8.487000  
+U255                      OAI22XL         typical         8.487000  
+U256                      OAI22XL         typical         8.487000  
+U257                      OAI22XL         typical         8.487000  
+U258                      OAI22XL         typical         8.487000  
+U259                      OAI22XL         typical         8.487000  
+U260                      OAI22XL         typical         8.487000  
+U261                      OAI22XL         typical         8.487000  
+U262                      OAI22XL         typical         8.487000  
+U263                      OAI22XL         typical         8.487000  
+U264                      OAI22XL         typical         8.487000  
+U265                      OAI22XL         typical         8.487000  
+U266                      OAI22XL         typical         8.487000  
+U267                      OAI22XL         typical         8.487000  
+U268                      OAI22XL         typical         8.487000  
+U269                      OAI22XL         typical         8.487000  
+U270                      OAI22XL         typical         8.487000  
+U271                      OAI22XL         typical         8.487000  
+U272                      OAI22XL         typical         8.487000  
+U273                      OAI22XL         typical         8.487000  
+U274                      OAI22XL         typical         8.487000  
+U275                      OAI22XL         typical         8.487000  
+U276                      OAI22XL         typical         8.487000  
+U277                      OAI22XL         typical         8.487000  
+U278                      OAI22XL         typical         8.487000  
+U279                      OAI22XL         typical         8.487000  
+U280                      OAI22XL         typical         8.487000  
+U281                      OAI22XL         typical         8.487000  
+U282                      OAI22XL         typical         8.487000  
+U283                      OAI22XL         typical         8.487000  
+U284                      OAI22XL         typical         8.487000  
+U285                      OAI22XL         typical         8.487000  
+U286                      OAI22XL         typical         8.487000  
+U287                      OAI22XL         typical         8.487000  
+U288                      OAI22XL         typical         8.487000  
+U289                      OAI22XL         typical         8.487000  
+U290                      OAI22XL         typical         8.487000  
+U291                      OAI22XL         typical         8.487000  
+U292                      OAI22XL         typical         8.487000  
+U293                      OAI22XL         typical         8.487000  
+U294                      OAI22XL         typical         8.487000  
+U295                      OAI22XL         typical         8.487000  
+U296                      OAI22XL         typical         8.487000  
+U297                      OAI22XL         typical         8.487000  
+U298                      OAI22XL         typical         8.487000  
+U299                      OAI22XL         typical         8.487000  
+U300                      OAI22XL         typical         8.487000  
+U301                      OAI22XL         typical         8.487000  
+U302                      OAI22XL         typical         8.487000  
+U303                      OAI22XL         typical         8.487000  
+U304                      OAI22XL         typical         8.487000  
+U305                      OAI22XL         typical         8.487000  
+U306                      OAI22XL         typical         8.487000  
+U307                      OAI22XL         typical         8.487000  
+U308                      OAI22XL         typical         8.487000  
+U309                      OAI22XL         typical         8.487000  
+U310                      OAI22XL         typical         8.487000  
+U311                      OAI22XL         typical         8.487000  
+U312                      OAI22XL         typical         8.487000  
+U313                      OAI22XL         typical         8.487000  
+U314                      OAI22XL         typical         8.487000  
+U315                      OAI22XL         typical         8.487000  
+U316                      OAI22XL         typical         8.487000  
+U317                      OAI22XL         typical         8.487000  
+U318                      OAI22XL         typical         8.487000  
+U319                      OAI22XL         typical         8.487000  
+U320                      OAI22XL         typical         8.487000  
+U321                      OAI22XL         typical         8.487000  
+U322                      OAI22XL         typical         8.487000  
+U323                      OAI22XL         typical         8.487000  
+U324                      OAI22XL         typical         8.487000  
+U325                      OAI22XL         typical         8.487000  
+U326                      OAI22XL         typical         8.487000  
+U327                      OAI22XL         typical         8.487000  
+U328                      OAI22XL         typical         8.487000  
+U329                      OAI22XL         typical         8.487000  
+U330                      OAI22XL         typical         8.487000  
+U331                      OAI22XL         typical         8.487000  
+U332                      OAI22XL         typical         8.487000  
+U333                      OAI22XL         typical         8.487000  
+U334                      OAI22XL         typical         8.487000  
+U335                      OAI22XL         typical         8.487000  
+U336                      OAI22XL         typical         8.487000  
+U337                      OAI22XL         typical         8.487000  
+U338                      OAI22XL         typical         8.487000  
+U339                      OAI22XL         typical         8.487000  
+U340                      OAI22XL         typical         8.487000  
+U341                      OAI22XL         typical         8.487000  
+U342                      OAI22XL         typical         8.487000  
+U343                      OAI22XL         typical         8.487000  
+U344                      OAI22XL         typical         8.487000  
+U345                      OAI22XL         typical         8.487000  
+U346                      OAI22XL         typical         8.487000  
+U347                      OAI22XL         typical         8.487000  
+U348                      OAI22XL         typical         8.487000  
+U349                      OAI22XL         typical         8.487000  
+U350                      OAI22XL         typical         8.487000  
+U351                      OAI22XL         typical         8.487000  
+U352                      OAI22XL         typical         8.487000  
+U353                      OAI22XL         typical         8.487000  
+U354                      OAI22XL         typical         8.487000  
+U355                      OAI22XL         typical         8.487000  
+U356                      OAI22XL         typical         8.487000  
+U357                      OAI22XL         typical         8.487000  
+U358                      OAI22XL         typical         8.487000  
+U359                      OAI22XL         typical         8.487000  
+U360                      OAI22XL         typical         8.487000  
+U361                      OAI22XL         typical         8.487000  
+U362                      OAI22XL         typical         8.487000  
+U363                      OAI22XL         typical         8.487000  
+U364                      OAI22XL         typical         8.487000  
+U365                      OAI22XL         typical         8.487000  
+U366                      OAI22XL         typical         8.487000  
+U367                      OAI22XL         typical         8.487000  
+U368                      OAI22XL         typical         8.487000  
+U369                      OAI22XL         typical         8.487000  
+U370                      OAI22XL         typical         8.487000  
+U371                      OAI22XL         typical         8.487000  
+U372                      OAI22XL         typical         8.487000  
+U373                      OAI22XL         typical         8.487000  
+U374                      OAI22XL         typical         8.487000  
+U375                      OAI2BB2XL       typical         10.184400 
+U376                      OAI2BB2XL       typical         10.184400 
+U377                      OAI2BB2XL       typical         10.184400 
+U378                      OAI2BB2XL       typical         10.184400 
+U379                      OAI2BB2XL       typical         10.184400 
+U380                      OAI2BB2XL       typical         10.184400 
+U381                      OAI2BB2XL       typical         10.184400 
+U382                      OAI2BB2XL       typical         10.184400 
+U383                      NOR2BX1         typical         6.789600  
+U384                      CLKINVX1        typical         3.394800  
+U385                      AND3X2          typical         8.487000  
+U386                      AND3X2          typical         8.487000  
+U387                      NOR2X1          typical         5.092200  
+U388                      NOR2X1          typical         5.092200  
+U389                      CLKINVX1        typical         3.394800  
+U390                      NOR2X1          typical         5.092200  
+U391                      NOR2X1          typical         5.092200  
+U392                      NOR2X1          typical         5.092200  
+U393                      NOR2X1          typical         5.092200  
+U394                      NOR2X1          typical         5.092200  
+U395                      CLKINVX1        typical         3.394800  
+U396                      CLKINVX1        typical         3.394800  
+U397                      NAND2X1         typical         5.092200  
+U398                      AO22X1          typical         10.184400 
+U399                      AOI221XL        typical         11.881800 
+U400                      NAND2X1         typical         5.092200  
+U401                      AO22X1          typical         10.184400 
+U402                      AOI221XL        typical         11.881800 
+U403                      NAND2X1         typical         5.092200  
+U404                      AO22X1          typical         10.184400 
+U405                      AOI221XL        typical         11.881800 
+U406                      NAND2X1         typical         5.092200  
+U407                      AO22X1          typical         10.184400 
+U408                      AOI221XL        typical         11.881800 
+U409                      OA22X1          typical         10.184400 
+U410                      OAI221XL        typical         11.881800 
+U411                      AO22X1          typical         10.184400 
+U412                      AOI221XL        typical         11.881800 
+U413                      AO22X1          typical         10.184400 
+U414                      AOI221XL        typical         11.881800 
+U415                      AO22X1          typical         10.184400 
+U416                      AOI221XL        typical         11.881800 
+U417                      AO22X1          typical         10.184400 
+U418                      AOI221XL        typical         11.881800 
+U419                      OA22X1          typical         10.184400 
+U420                      OAI221XL        typical         11.881800 
+U421                      AO22X1          typical         10.184400 
+U422                      AOI221XL        typical         11.881800 
+U423                      AO22X1          typical         10.184400 
+U424                      AOI221XL        typical         11.881800 
+U425                      AO22X1          typical         10.184400 
+U426                      AOI221XL        typical         11.881800 
+U427                      AO22X1          typical         10.184400 
+U428                      AOI221XL        typical         11.881800 
+U429                      OA22X1          typical         10.184400 
+U430                      OAI221XL        typical         11.881800 
+U431                      AO22X1          typical         10.184400 
+U432                      AOI221XL        typical         11.881800 
+U433                      AO22X1          typical         10.184400 
+U434                      AOI221XL        typical         11.881800 
+U435                      AO22X1          typical         10.184400 
+U436                      AOI221XL        typical         11.881800 
+U437                      AO22X1          typical         10.184400 
+U438                      AOI221XL        typical         11.881800 
+U439                      OA22X1          typical         10.184400 
+U440                      OAI221XL        typical         11.881800 
+U441                      AO22X1          typical         10.184400 
+U442                      AOI221XL        typical         11.881800 
+U443                      AO22X1          typical         10.184400 
+U444                      AOI221XL        typical         11.881800 
+U445                      AO22X1          typical         10.184400 
+U446                      AOI221XL        typical         11.881800 
+U447                      AO22X1          typical         10.184400 
+U448                      AOI221XL        typical         11.881800 
+U449                      OA22X1          typical         10.184400 
+U450                      OAI221XL        typical         11.881800 
+U451                      AO22X1          typical         10.184400 
+U452                      AOI221XL        typical         11.881800 
+U453                      AO22X1          typical         10.184400 
+U454                      AOI221XL        typical         11.881800 
+U455                      AO22X1          typical         10.184400 
+U456                      AOI221XL        typical         11.881800 
+U457                      AO22X1          typical         10.184400 
+U458                      AOI221XL        typical         11.881800 
+U459                      OA22X1          typical         10.184400 
+U460                      OAI221XL        typical         11.881800 
+U461                      AO22X1          typical         10.184400 
+U462                      AOI221XL        typical         11.881800 
+U463                      AO22X1          typical         10.184400 
+U464                      AOI221XL        typical         11.881800 
+U465                      AO22X1          typical         10.184400 
+U466                      AOI221XL        typical         11.881800 
+U467                      AO22X1          typical         10.184400 
+U468                      AOI221XL        typical         11.881800 
+U469                      OA22X1          typical         10.184400 
+U470                      OAI221XL        typical         11.881800 
+U471                      AO22X1          typical         10.184400 
+U472                      AOI221XL        typical         11.881800 
+U473                      AO22X1          typical         10.184400 
+U474                      AOI221XL        typical         11.881800 
+U475                      AO22X1          typical         10.184400 
+U476                      AOI221XL        typical         11.881800 
+U477                      AO22X1          typical         10.184400 
+U478                      AOI221XL        typical         11.881800 
+U479                      OA22X1          typical         10.184400 
+U480                      OAI221XL        typical         11.881800 
+dout_reg[0]               DFFRX1          typical         32.250599 n
+dout_reg[1]               DFFRX1          typical         32.250599 n
+dout_reg[2]               DFFRX1          typical         32.250599 n
+dout_reg[3]               DFFRX1          typical         32.250599 n
+dout_reg[4]               DFFRX1          typical         32.250599 n
+dout_reg[5]               DFFRX1          typical         32.250599 n
+dout_reg[6]               DFFRX1          typical         32.250599 n
+dout_reg[7]               DFFRX1          typical         32.250599 n
+mem_reg[0][0]             DFFRX1          typical         32.250599 n
+mem_reg[0][1]             DFFRX1          typical         32.250599 n
+mem_reg[0][2]             DFFRX1          typical         32.250599 n
+mem_reg[0][3]             DFFRX1          typical         32.250599 n
+mem_reg[0][4]             DFFRX1          typical         32.250599 n
+mem_reg[0][5]             DFFRX1          typical         32.250599 n
+mem_reg[0][6]             DFFRX1          typical         32.250599 n
+mem_reg[0][7]             DFFRX1          typical         32.250599 n
+mem_reg[1][0]             DFFRX1          typical         32.250599 n
+mem_reg[1][1]             DFFRX1          typical         32.250599 n
+mem_reg[1][2]             DFFRX1          typical         32.250599 n
+mem_reg[1][3]             DFFRX1          typical         32.250599 n
+mem_reg[1][4]             DFFRX1          typical         32.250599 n
+mem_reg[1][5]             DFFRX1          typical         32.250599 n
+mem_reg[1][6]             DFFRX1          typical         32.250599 n
+mem_reg[1][7]             DFFRX1          typical         32.250599 n
+mem_reg[2][0]             DFFRX1          typical         32.250599 n
+mem_reg[2][1]             DFFRX1          typical         32.250599 n
+mem_reg[2][2]             DFFRX1          typical         32.250599 n
+mem_reg[2][3]             DFFRX1          typical         32.250599 n
+mem_reg[2][4]             DFFRX1          typical         32.250599 n
+mem_reg[2][5]             DFFRX1          typical         32.250599 n
+mem_reg[2][6]             DFFRX1          typical         32.250599 n
+mem_reg[2][7]             DFFRX1          typical         32.250599 n
+mem_reg[3][0]             DFFRX1          typical         32.250599 n
+mem_reg[3][1]             DFFRX1          typical         32.250599 n
+mem_reg[3][2]             DFFRX1          typical         32.250599 n
+mem_reg[3][3]             DFFRX1          typical         32.250599 n
+mem_reg[3][4]             DFFRX1          typical         32.250599 n
+mem_reg[3][5]             DFFRX1          typical         32.250599 n
+mem_reg[3][6]             DFFRX1          typical         32.250599 n
+mem_reg[3][7]             DFFRX1          typical         32.250599 n
+mem_reg[4][0]             DFFRX1          typical         32.250599 n
+mem_reg[4][1]             DFFRX1          typical         32.250599 n
+mem_reg[4][2]             DFFRX1          typical         32.250599 n
+mem_reg[4][3]             DFFRX1          typical         32.250599 n
+mem_reg[4][4]             DFFRX1          typical         32.250599 n
+mem_reg[4][5]             DFFRX1          typical         32.250599 n
+mem_reg[4][6]             DFFRX1          typical         32.250599 n
+mem_reg[4][7]             DFFRX1          typical         32.250599 n
+mem_reg[5][0]             DFFRX1          typical         32.250599 n
+mem_reg[5][1]             DFFRX1          typical         32.250599 n
+mem_reg[5][2]             DFFRX1          typical         32.250599 n
+mem_reg[5][3]             DFFRX1          typical         32.250599 n
+mem_reg[5][4]             DFFRX1          typical         32.250599 n
+mem_reg[5][5]             DFFRX1          typical         32.250599 n
+mem_reg[5][6]             DFFRX1          typical         32.250599 n
+mem_reg[5][7]             DFFRX1          typical         32.250599 n
+mem_reg[6][0]             DFFRX1          typical         32.250599 n
+mem_reg[6][1]             DFFRX1          typical         32.250599 n
+mem_reg[6][2]             DFFRX1          typical         32.250599 n
+mem_reg[6][3]             DFFRX1          typical         32.250599 n
+mem_reg[6][4]             DFFRX1          typical         32.250599 n
+mem_reg[6][5]             DFFRX1          typical         32.250599 n
+mem_reg[6][6]             DFFRX1          typical         32.250599 n
+mem_reg[6][7]             DFFRX1          typical         32.250599 n
+mem_reg[7][0]             DFFRX1          typical         32.250599 n
+mem_reg[7][1]             DFFRX1          typical         32.250599 n
+mem_reg[7][2]             DFFRX1          typical         32.250599 n
+mem_reg[7][3]             DFFRX1          typical         32.250599 n
+mem_reg[7][4]             DFFRX1          typical         32.250599 n
+mem_reg[7][5]             DFFRX1          typical         32.250599 n
+mem_reg[7][6]             DFFRX1          typical         32.250599 n
+mem_reg[7][7]             DFFRX1          typical         32.250599 n
+mem_reg[8][0]             DFFRX1          typical         32.250599 n
+mem_reg[8][1]             DFFRX1          typical         32.250599 n
+mem_reg[8][2]             DFFRX1          typical         32.250599 n
+mem_reg[8][3]             DFFRX1          typical         32.250599 n
+mem_reg[8][4]             DFFRX1          typical         32.250599 n
+mem_reg[8][5]             DFFRX1          typical         32.250599 n
+mem_reg[8][6]             DFFRX1          typical         32.250599 n
+mem_reg[8][7]             DFFRX1          typical         32.250599 n
+mem_reg[9][0]             DFFRX1          typical         32.250599 n
+mem_reg[9][1]             DFFRX1          typical         32.250599 n
+mem_reg[9][2]             DFFRX1          typical         32.250599 n
+mem_reg[9][3]             DFFRX1          typical         32.250599 n
+mem_reg[9][4]             DFFRX1          typical         32.250599 n
+mem_reg[9][5]             DFFRX1          typical         32.250599 n
+mem_reg[9][6]             DFFRX1          typical         32.250599 n
+mem_reg[9][7]             DFFRX1          typical         32.250599 n
+mem_reg[10][0]            DFFRX1          typical         32.250599 n
+mem_reg[10][1]            DFFRX1          typical         32.250599 n
+mem_reg[10][2]            DFFRX1          typical         32.250599 n
+mem_reg[10][3]            DFFRX1          typical         32.250599 n
+mem_reg[10][4]            DFFRX1          typical         32.250599 n
+mem_reg[10][5]            DFFRX1          typical         32.250599 n
+mem_reg[10][6]            DFFRX1          typical         32.250599 n
+mem_reg[10][7]            DFFRX1          typical         32.250599 n
+mem_reg[11][0]            DFFRX1          typical         32.250599 n
+mem_reg[11][1]            DFFRX1          typical         32.250599 n
+mem_reg[11][2]            DFFRX1          typical         32.250599 n
+mem_reg[11][3]            DFFRX1          typical         32.250599 n
+mem_reg[11][4]            DFFRX1          typical         32.250599 n
+mem_reg[11][5]            DFFRX1          typical         32.250599 n
+mem_reg[11][6]            DFFRX1          typical         32.250599 n
+mem_reg[11][7]            DFFRX1          typical         32.250599 n
+mem_reg[12][0]            DFFRX1          typical         32.250599 n
+mem_reg[12][1]            DFFRX1          typical         32.250599 n
+mem_reg[12][2]            DFFRX1          typical         32.250599 n
+mem_reg[12][3]            DFFRX1          typical         32.250599 n
+mem_reg[12][4]            DFFRX1          typical         32.250599 n
+mem_reg[12][5]            DFFRX1          typical         32.250599 n
+mem_reg[12][6]            DFFRX1          typical         32.250599 n
+mem_reg[12][7]            DFFRX1          typical         32.250599 n
+mem_reg[13][0]            DFFRX1          typical         32.250599 n
+mem_reg[13][1]            DFFRX1          typical         32.250599 n
+mem_reg[13][2]            DFFRX1          typical         32.250599 n
+mem_reg[13][3]            DFFRX1          typical         32.250599 n
+mem_reg[13][4]            DFFRX1          typical         32.250599 n
+mem_reg[13][5]            DFFRX1          typical         32.250599 n
+mem_reg[13][6]            DFFRX1          typical         32.250599 n
+mem_reg[13][7]            DFFRX1          typical         32.250599 n
+mem_reg[14][0]            DFFRX1          typical         32.250599 n
+mem_reg[14][1]            DFFRX1          typical         32.250599 n
+mem_reg[14][2]            DFFRX1          typical         32.250599 n
+mem_reg[14][3]            DFFRX1          typical         32.250599 n
+mem_reg[14][4]            DFFRX1          typical         32.250599 n
+mem_reg[14][5]            DFFRX1          typical         32.250599 n
+mem_reg[14][6]            DFFRX1          typical         32.250599 n
+mem_reg[14][7]            DFFRX1          typical         32.250599 n
+mem_reg[15][0]            DFFRX1          typical         32.250599 n
+mem_reg[15][1]            DFFRX1          typical         32.250599 n
+mem_reg[15][2]            DFFRX1          typical         32.250599 n
+mem_reg[15][3]            DFFRX1          typical         32.250599 n
+mem_reg[15][4]            DFFRX1          typical         32.250599 n
+mem_reg[15][5]            DFFRX1          typical         32.250599 n
+mem_reg[15][6]            DFFRX1          typical         32.250599 n
+mem_reg[15][7]            DFFRX1          typical         32.250599 n
+--------------------------------------------------------------------------------
+Total 427 cells                                           6923.694476
+1

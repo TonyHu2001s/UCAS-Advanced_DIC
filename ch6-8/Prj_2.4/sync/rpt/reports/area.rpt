@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : sram
+Version: O-2018.06-SP1
+Date   : Thu Jan  4 00:00:39 2024
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+Number of ports:                           24
+Number of nets:                           571
+Number of cells:                          427
+Number of combinational cells:            291
+Number of sequential cells:               136
+Number of macros/black boxes:               0
+Number of buf/inv:                         37
+Number of references:                      14
+
+Combinational area:               2537.613024
+Buf/Inv area:                      274.978801
+Noncombinational area:            4386.081451
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  6923.694476
+Total area:                 undefined
+1

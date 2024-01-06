@@ -1,0 +1,11 @@
+Command: /home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.1/sim/script/./sqrt -l ../rpt/run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Jan  1 20:31 2024
+VCD+ Writer O-2018.09-1_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+$finish called from file "../../src/tb_sqrt.v", line 33.
+$finish at simulation time                 2920
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2920 ns
+CPU Time:      0.740 seconds;       Data structure size:   0.0Mb
+Mon Jan  1 20:31:19 2024

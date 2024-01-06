@@ -1,0 +1,77 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : sqrt
+Version: O-2018.06-SP1
+Date   : Mon Jan  1 20:41:51 2024
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: x_cpl_reg[14][30]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: x_cpl_reg[15][61]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             2.50       2.50
+  x_cpl_reg[14][30]/CK (DFFRX1)                           0.00       2.50 r
+  x_cpl_reg[14][30]/Q (DFFRX1)                            0.41       2.91 f
+  sub_63_G15/A[0] (sqrt_DW01_sub_0)                       0.00       2.91 f
+  sub_63_G15/U1/Y (OR2X1)                                 0.17       3.07 f
+  sub_63_G15/U2_2/CO (ADDFXL)                             0.22       3.29 f
+  sub_63_G15/U2_3/CO (ADDFXL)                             0.23       3.52 f
+  sub_63_G15/U2_4/CO (ADDFXL)                             0.23       3.75 f
+  sub_63_G15/U2_5/CO (ADDFXL)                             0.23       3.99 f
+  sub_63_G15/U2_6/CO (ADDFXL)                             0.23       4.22 f
+  sub_63_G15/U2_7/CO (ADDFXL)                             0.23       4.45 f
+  sub_63_G15/U2_8/CO (ADDFXL)                             0.23       4.68 f
+  sub_63_G15/U2_9/CO (ADDFXL)                             0.23       4.91 f
+  sub_63_G15/U2_10/CO (ADDFXL)                            0.23       5.14 f
+  sub_63_G15/U2_11/CO (ADDFXL)                            0.23       5.37 f
+  sub_63_G15/U2_12/CO (ADDFXL)                            0.23       5.60 f
+  sub_63_G15/U2_13/CO (ADDFXL)                            0.23       5.83 f
+  sub_63_G15/U2_14/CO (ADDFXL)                            0.23       6.06 f
+  sub_63_G15/U2_15/CO (ADDFXL)                            0.24       6.30 f
+  sub_63_G15/U15/Y (OR2X1)                                0.17       6.47 f
+  sub_63_G15/U4/Y (OR2X1)                                 0.16       6.64 f
+  sub_63_G15/U5/Y (OR2X1)                                 0.16       6.80 f
+  sub_63_G15/U6/Y (OR2X1)                                 0.16       6.96 f
+  sub_63_G15/U7/Y (OR2X1)                                 0.16       7.12 f
+  sub_63_G15/U8/Y (OR2X1)                                 0.16       7.29 f
+  sub_63_G15/U9/Y (OR2X1)                                 0.16       7.45 f
+  sub_63_G15/U10/Y (OR2X1)                                0.16       7.61 f
+  sub_63_G15/U11/Y (OR2X1)                                0.16       7.78 f
+  sub_63_G15/U12/Y (OR2X1)                                0.16       7.94 f
+  sub_63_G15/U13/Y (OR2X1)                                0.16       8.10 f
+  sub_63_G15/U14/Y (OR2X1)                                0.16       8.26 f
+  sub_63_G15/U31/Y (OR2X1)                                0.14       8.40 f
+  sub_63_G15/U42/Y (XNOR2X1)                              0.09       8.49 f
+  sub_63_G15/DIFF[29] (sqrt_DW01_sub_0)                   0.00       8.49 f
+  U2274/Y (AOI222XL)                                      0.17       8.67 r
+  U2273/Y (CLKINVX1)                                      0.04       8.71 f
+  x_cpl_reg[15][61]/D (DFFRX1)                            0.00       8.71 f
+  data arrival time                                                  8.71
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             2.50     102.50
+  clock uncertainty                                      -1.50     101.00
+  x_cpl_reg[15][61]/CK (DFFRX1)                           0.00     101.00 r
+  library setup time                                     -0.09     100.91
+  data required time                                               100.91
+  --------------------------------------------------------------------------
+  data required time                                               100.91
+  data arrival time                                                 -8.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                       92.20
+
+
+1

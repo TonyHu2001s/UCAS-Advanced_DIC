@@ -1,0 +1,43 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Wed Jan  3 23:27:50 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     12
+    Multiply driven inputs (LINT-6)                                12
+
+Cells                                                               1
+    Cells do not drive (LINT-1)                                     1
+
+Tristate                                                            9
+    A tristate bus has a non tri-state driver (LINT-34)             9
+--------------------------------------------------------------------------------
+
+Warning: In design 'mat_scan', cell 'C767' does not drive any nets. (LINT-1)
+Warning: In design 'mat_scan', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'rst_n' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[9]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[8]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', input port 'din[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mat_scan', three-state bus 'r_en' has non three-state driver 'r_en_reg/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'w_en' has non three-state driver 'w_en_reg/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'cs_n' has non three-state driver 'cs_n_reg/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'addr[0]' has non three-state driver 'addr_reg[0]/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'addr[1]' has non three-state driver 'addr_reg[1]/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'addr[2]' has non three-state driver 'addr_reg[2]/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'addr[3]' has non three-state driver 'addr_reg[3]/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'addr[4]' has non three-state driver 'addr_reg[4]/Q'. (LINT-34)
+Warning: In design 'mat_scan', three-state bus 'addr[5]' has non three-state driver 'addr_reg[5]/Q'. (LINT-34)
+1

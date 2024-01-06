@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : sqrt
+Version: O-2018.06-SP1
+Date   : Mon Jan  1 20:41:51 2024
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/ICer/library/typical.db)
+
+Number of ports:                         1340
+Number of nets:                          5071
+Number of cells:                         3634
+Number of combinational cells:           2610
+Number of sequential cells:              1010
+Number of macros/black boxes:               0
+Number of buf/inv:                        588
+Number of references:                      42
+
+Combinational area:              25350.669030
+Buf/Inv area:                     2333.924974
+Noncombinational area:           28219.274044
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 53569.943074
+Total area:                 undefined
+1

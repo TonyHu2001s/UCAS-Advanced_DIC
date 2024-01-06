@@ -1,0 +1,20 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        3
+    ],
+    "tb_sram_ctr_ahb": [
+        "tb_sram_ctr_ahb",
+        "TWDP0",
+        "module",
+        2
+    ]
+}

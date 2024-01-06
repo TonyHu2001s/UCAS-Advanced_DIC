@@ -1,0 +1,2076 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : sort_32_u8
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:44:05 2024
+****************************************
+
+
+    Net: dout_0[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_0[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_1[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_2[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_3[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_4[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_5[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_6[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_7[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_8[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_9[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_10[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_11[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_12[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_13[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_14[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_15[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_16[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_17[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_18[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_19[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_20[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_21[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_22[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_23[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_24[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_25[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_26[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_27[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_28[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_29[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_30[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[0]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[1]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[2]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[3]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[4]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[5]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[6]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: dout_31[7]
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Net: vld_out
+
+    max_capacitance        1.71
+  - Capacitance            2.00
+  ------------------------------
+    Slack                 -0.29  (VIOLATED)
+
+
+    Design: sort_32_u8
+
+    max_area               0.00
+  - Current Area       352020.41
+  ------------------------------
+    Slack              -352020.41  (VIOLATED)
+
+
+1

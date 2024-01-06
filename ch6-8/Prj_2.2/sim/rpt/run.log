@@ -1,0 +1,11 @@
+Command: /home/ICer/homework/Verilog/UCAS-Advanced_DIC/ch6-8/Prj_2.2/sim/script/./sort_32_u8 -l ../rpt/run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Jan  3 21:04 2024
+VCD+ Writer O-2018.09-1_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+$finish called from file "../../src/tb_sort_32_u8.v", line 55.
+$finish at simulation time                  200
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 200 ns
+CPU Time:      0.630 seconds;       Data structure size:   0.1Mb
+Wed Jan  3 21:04:39 2024

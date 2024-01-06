@@ -1,0 +1,50 @@
+Warning: Design 'mat_scan' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mat_scan
+Version: O-2018.06-SP1
+Date   : Wed Jan  3 23:27:58 2024
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: addr_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: addr_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  addr_reg[1]/CK (DFFSX1)                  0.00       0.00 r
+  addr_reg[1]/Q (DFFSX1)                   0.35       0.35 r
+  U73/CO (ADDHXL)                          0.12       0.47 r
+  U74/CO (ADDHXL)                          0.11       0.58 r
+  U72/CO (ADDHXL)                          0.11       0.69 r
+  U89/CO (ADDHXL)                          0.10       0.80 r
+  U94/Y (XOR2X1)                           0.09       0.89 f
+  U83/Y (AO22X1)                           0.16       1.05 f
+  addr_reg[5]/D (DFFSX1)                   0.00       1.05 f
+  data arrival time                                   1.05
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  addr_reg[5]/CK (DFFSX1)                  0.00     100.00 r
+  library setup time                      -0.10      99.90
+  data required time                                 99.90
+  -----------------------------------------------------------
+  data required time                                 99.90
+  data arrival time                                  -1.05
+  -----------------------------------------------------------
+  slack (MET)                                        98.86
+
+
+1

@@ -1,0 +1,504 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Wed Jan  3 23:31:22 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                             276
+    Cells do not drive (LINT-1)                                    64
+    Connected to power or ground (LINT-32)                        160
+    Nets connected to multiple pins on same cell (LINT-33)         52
+--------------------------------------------------------------------------------
+
+Warning: In design 'sort_score_31', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_31', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_0', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_0', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_1', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_1', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_2', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_2', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_3', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_3', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_4', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_4', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_5', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_5', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_6', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_6', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_7', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_7', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_8', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_8', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_9', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_9', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_10', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_10', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_11', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_11', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_12', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_12', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_13', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_13', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_14', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_14', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_15', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_15', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_16', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_16', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_17', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_17', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_18', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_18', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_19', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_19', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_20', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_20', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_21', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_21', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_22', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_22', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_23', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_23', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_24', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_24', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_25', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_25', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_26', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_26', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_27', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_27', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_28', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_28', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_29', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_29', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_30', cell 'C403' does not drive any nets. (LINT-1)
+Warning: In design 'sort_score_30', cell 'C508' does not drive any nets. (LINT-1)
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_11' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_11' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_11' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_11' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_11' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_12' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_12' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_12' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_12' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_12' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_13' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_13' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_13' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_13' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_13' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_14' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_14' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_14' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_14' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_14' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_15' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_15' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_15' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_15' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_15' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_16' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_16' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_16' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_16' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_16' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_17' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_18' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_18' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_18' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_18' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_18' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_19' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_19' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_19' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_19' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_19' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_20' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_20' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_20' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_20' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_20' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_21' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_21' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_21' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_21' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_21' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_24' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_24' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_24' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_24' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_24' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_25' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_25' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_25' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_25' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_25' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_26' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_26' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_26' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_26' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_26' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_27' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_27' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_27' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_27' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_27' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_28' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_28' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_28' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_28' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_28' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_29' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_29' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_29' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_29' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_29' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_30' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 0. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[4]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[3]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[2]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[1]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', a pin on submodule 'u_score_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'input_index[0]' is connected to logic 1. 
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_0'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_1'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_2'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_3'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_3'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[1]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_4'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_5'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_5'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[2]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_6'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_6'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[2]', 'input_index[1]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_7'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[3]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_7'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[2]', 'input_index[1]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_8'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[2]'', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_9'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[2]'', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_9'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_10'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[2]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_10'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[1]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_11'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[2]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_11'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[1]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_12'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[1]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_12'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[2]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_13'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[1]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_13'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[2]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_14'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[4]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_14'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[2]'', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_15'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[3]', 'input_index[2]'', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_16'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[2]'', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_17'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_17'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[2]'', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_18'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[1]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_18'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[2]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_19'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[1]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_19'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[2]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_20'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[2]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_20'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[1]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_21'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[2]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_21'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[1]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_22'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[2]'', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_22'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[3]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_23'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[2]'', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_24'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_24'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[2]', 'input_index[1]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_25'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_25'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[2]', 'input_index[1]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_26'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_26'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[2]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_27'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[1]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_28'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_28'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'input_index[1]', 'input_index[0]''.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_29'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]', 'input_index[0]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_30'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]', 'input_index[1]'.
+Warning: In design 'sort_32_u8', the same net is connected to more than one pin on submodule 'u_score_31'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'input_index[4]', 'input_index[3]'', 'input_index[2]', 'input_index[1]', 'input_index[0]'.
+1
